@@ -1,0 +1,39 @@
+/* BEGIN Regular */
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto/Regular/Roboto-Regular.woff2?v=2.137') format('woff2'), url('../fonts/Roboto/Regular/Roboto-Regular.woff?v=2.137') format('woff'), url('../fonts/Roboto/Regular/Roboto-Regular.ttf?v=2.137') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+// или так
+@font-face {
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/Roboto/Regular/Roboto-Regular.woff") format('woff'),
+  url("../assets/fonts/Roboto/Regular/Roboto-Regular.woff2") format('woff2'),
+  url("../assets/fonts/Roboto/Regular/Roboto-Regular.ttf") format('ttf');
+}
+*/
+/*
+@font-face { font-family: Roboto-Bold; }
+*/
+/*
+body {
+  // font-family: Roboto;
+  font-family: Roboto-Bold;
+}
+*/
+/* для отдельных браузеров прописываем
+@font-face {
+font-family: 'MyWebFont';
+src: url('webfont.eot'); // IE9
+src: url('webfont.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+url('webfont.woff') format('woff'), // современные браузеры
+url('webfont.ttf')  format('truetype'), // Safari, Android, iOS
+url('webfont.svg#svgFontName') format('svg'); // устаревший iOS
+}
+
+*/
+/* END Regular */
